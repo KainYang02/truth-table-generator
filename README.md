@@ -1,5 +1,17 @@
-# Welcome to GitHub Desktop!
+# 真值表生成器 by 杨恺
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
+使用指南:
 
-Write your name on line 6, save it, and then head back to GitHub Desktop.
+!!!输入请使用英文标点!!!
+
+符号：
+* 与 : &
+* 或 : |
+* 非 : !
+* 蕴含 : -> 或 <-
+* 双蕴含 : <->
+优先级 ：() > ！ > & > | > -> > <->
+
+命题 : 字母 不区分大小写 (即a和A是同一个命题,并且在输出真值表的时候会统一为A)
+
+请不要故意用一堆->和<-卡优先级，因为这种情况没有定义，你的脑子也算不出来
